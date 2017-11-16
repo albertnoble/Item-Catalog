@@ -1,4 +1,7 @@
 <h1>Catalog Project</h1>
+A sports equipment catalog that displays items retrieved from a database.
+Authorized users can add, edit, or remove items.  This application utilizes
+the Flask python framework.
 
 <h2>Prerequisites</h2>
     <ul>
@@ -12,13 +15,13 @@
 	
 <h2>Installing</h2>
 	Download and install VirtualBox and Vagrant
-	Inside the vagrant subdirectory run "vagrant up" and then "vagrant ssh"
-    Run `python database_setup.py` to create the database
-    Run `addItems.py` to populate the database with dummy data
+	Inside the vagrant subdirectory run <code>vagrant up</code> and then <code>vagrant ssh</code>
+    Run <code>python database_setup.py</code> to create the database
+    Run <code>addItems.py</code> to populate the database with dummy data
     (Populated Database is already included)
 	
 <h2>Run</h2>
-	Run `python application.py` and go to http://localhost:8000 in your preferred browser
+	Run <code>python application.py</code> and go to <code>http://localhost:8000</code> in your preferred browser
     
 <h2>Sources Used</h2>
     Full Stack Web Developer http://www.udacity.com
