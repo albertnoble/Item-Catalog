@@ -549,6 +549,6 @@ def catalogJSON():
 if __name__ == '__main__':
     app.secret_key = 'super secret'
     app.debug = True
-    app.run(host='0.0.0.0', port=8000)
+    app.run()
     login_manager = LoginManager()
     login_manager.init_app(app)
